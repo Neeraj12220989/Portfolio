@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neeraj Mahato's Portfolio</title>
+    <link rel="icon" href="assets/images/sayanbiswas/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="neeraj.css">
+    <script src="https://kit.fontawesome.com/2c6faefed4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo2.png" alt="Logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Neeraj Mahato</span></h1>
+                <h4>Web Developer & Designer</h4>
+            </div>
+        </div>
+    </div>
+    <!----------about--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/pho.jpg" alt="Profile pic">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi there!
+
+                        I'm Neeraj Mahato, an undergraduate student in Computer Science and Engineering from Lovely Professional University. My
+                        passion lies in software development, with a particular focus on React, C++, and data
+                        structures and algorithms (DSA). I love diving into code and exploring new technologies.
+                        <br><br>
+                        My interests extend to Web development, and I enjoy collaborating on open-source
+                        projects. I actively contribute to my GitHub repositories and engage with the developer
+                        community on LinkedIn and other platforms. Connecting with other developers and sharing
+                        knowledge is something I find incredibly rewarding.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>Java C++ <br>Python</li>
+                            <li><span>Frontend</span><br>HTML/CSS <br> JavaScript <br>React </li>
+                            <li><span>Backend</span><br>Node.js <br> MongoDB</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2026</span><br>B.Tech CSE from Lovely Professional University(Punjab), CGPA - 8.00</li>
+                            <li><span>2021</span><br>Standard XII from Guru Gobind Singh Public School, Bokaro, Jharkhand, Marks - 93.4%</li>
+                            <li><span>2019</span><br>Standard X from Shree Ayyappa Public School, Bokaro, Jharkhand, Marks - 91%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------services-------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-code"></i>
+                    <h2>Frontend</h2>
+                    <p>Frontend is the part of the website that users interact with. 
+                        I focus on crafting responsive, user-friendly interfaces using HTML, CSS, JavaScript, and React.js. 
+                        I’ve worked on dynamic, visually appealing websites optimized for performance and accessibility</p>
+                    <a href="https://github.com/Neeraj12220989/Railway-Reservation-System">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Backend</h2>
+                    <p>I specialize in developing secure, scalable backend solutions using Node.js, Express, and MongoDB.
+                         My experience includes building RESTful APIs, handling authentication, and ensuring data security.</p>
+                    <a href="https://github.com/Neeraj12220989/OtakuTreasures-BookStore">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>App/Website Design</h2>
+                    <p>I craft distinctive and memorable designs for application as well as websites that effectively capture and communicate the brand's
+                        identity. My designs blend creativity and strategic thinking to ensure your App/Website leaves a
+                        lasting impression.</p>
+                    <a href="https://www.figma.com/design/2oscZbJUfb4Kkk702w2OgD/Untitled?t=mEk2VT63voSjwaZ3-0">Learn
+                        more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------portfolio---------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/bookstore.jpg" alt="BookStore">
+                    <div class="layer">
+                        <h3>OtakuTreasures-BookStore</h3>
+                        <p>This Ecommerse app that offers a collection of Books and Mangas to Read and buy(books are Available for all Age Groups)</p>
+                        <a href="https://github.com/Neeraj12220989/OtakuTreasures-BookStore"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/website.png" alt="Anico.org">
+                    <div class="layer">
+                        <h3>Anico.Org</h3>
+                        <p>An Ecommerse Website For our Anime fans out there. where they can easily get their favourite anime mechardise with great deals</p>
+                        <a href="https://github.com/Sbiswas001/gcect-batch-2023"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/low fidelity.png" alt="NumplexApp">
+                    <div class="layer">
+                        <h3>Hospital Management System</h3>
+                        <p>This is an Design of App that I will make in future currently done with the Low fidelity wireframes</p>
+                        <a href="https://www.figma.com/design/2oscZbJUfb4Kkk702w2OgD/Untitled?t=mEk2VT63voSjwaZ3-0"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Neeraj12220989?tab=repositories" class="btn">See more</a>
+        </div>
+    </div>
+    <!-----------contact-------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>neeraj12mahato@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Neeraj12220989"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/neeraj-mahato-4056b8246/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/neeraj_mahato_/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1OM9zWbGAK-bJdT767X1zjESOsSBrwm4p/view?usp=sharing"
+                        class="btn btn2">Check CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Neeraj Mahato <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <button id="goToTopBtn" title="Go to top"><i class="fa-solid fa-up-long"></i></button>
+    <script src="Neeraj.js"></script>
+</body>
+
+</html>
